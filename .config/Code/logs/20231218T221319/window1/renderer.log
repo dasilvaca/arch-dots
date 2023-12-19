@@ -1,0 +1,8 @@
+2023-12-18 22:13:21.432 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-18 22:13:21.557 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/dasilvaca/README.md","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2023-12-18 22:13:22.982 [info] Started local extension host with pid 6687.
+2023-12-18 22:13:29.829 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'untitled:/home/dasilvaca/README.md'
+    at n.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:645:13659)
+    at async n.bb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:645:24851)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:645:24559
+2023-12-18 22:13:35.189 [info] [perf] Render performance baseline is 164ms
